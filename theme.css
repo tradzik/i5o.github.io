@@ -1,0 +1,94 @@
+html
+{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+body
+{
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  -webkit-text-size-adjust:none;
+  font-family:"Noto Serif", serif;
+  font-size:16px;
+  line-height:28px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+  width:100%;
+  height:100%;
+  letter-spacing:0;
+  position:relative;
+  background-color:#FFF;
+  color:#313131;
+  margin:0;
+  padding:0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  margin-top:0;
+  margin-bottom:22px;
+}
+
+h1
+{
+  font-size:44px;
+  line-height:60px;
+  letter-spacing:-2px;
+}
+
+header
+{
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  height:100%;
+  width:auto;
+  position:relative;
+  text-align:center;
+  background-image: url('fosforito.jpg');
+
+}
+
+#title_wrapper
+{
+  -webkit-transform-style:preserve-3d;
+  display:block;
+  height:50%;
+  width:100%;
+  position:absolute;
+  text-align:center;
+}
+
+#logo img
+{
+  position:relative;
+  top:50%;
+  -webkit-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform:translateY(-50%);
+  max-height:90%;
+  width:auto;
+}
+
+#title_wrapper
+{
+  top:40%;
+}
+
+h1#site_title
+{
+  display:inline-block;
+  font-family:Arvo, serif;
+  font-size:56px;
+  line-height:76px;
+  letter-spacing:-3px;
+  position:relative;
+  color:#FFF;
+  text-shadow:1px 0 20px rgba(0,0,0,0.35);
+  margin:0;
+  padding:4px 16px;
+}
